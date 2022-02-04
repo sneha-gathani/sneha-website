@@ -1,17 +1,33 @@
 {
   "files": {
-    "main.css": "/sneha-website/static/css/main.a62bd47a.css",
-    "main.js": "/sneha-website/static/js/main.dda1a945.js",
-    "static/js/787.3d4f6c66.chunk.js": "/sneha-website/static/js/787.3d4f6c66.chunk.js",
+    "main.css": "/sneha-website/static/css/main.fc0706bd.css",
+    "main.js": "/sneha-website/static/js/main.8a6bbed0.js",
+    "static/media/sneha.png": "/sneha-website/static/media/sneha.0a5355b96e0eed992236.png",
+    "static/media/tower.png": "/sneha-website/static/media/tower.36a21ba35e4c9083b75b.png",
+    "static/media/cry.png": "/sneha-website/static/media/cry.3e63106c6b454db0ed49.png",
+    "static/media/ieee.png": "/sneha-website/static/media/ieee.f74ed075dff9ae7359e4.png",
+    "static/media/mapping_process.png": "/sneha-website/static/media/mapping_process.6520012dc938eff3a9c6.png",
+    "static/media/tedx.png": "/sneha-website/static/media/tedx.ac23047ef6208cc144b1.png",
+    "static/media/systemd.png": "/sneha-website/static/media/systemd.41e804e025ea2e4036bb.png",
+    "static/media/vase.jpeg": "/sneha-website/static/media/vase.b9bd5019b67b744915e7.jpeg",
+    "static/media/sunflower.jpeg": "/sneha-website/static/media/sunflower.be495754c035ceefb667.jpeg",
+    "static/media/grammatic_embeddings.png": "/sneha-website/static/media/grammatic_embeddings.e3fd48e8e1086361add6.png",
+    "static/media/Debugging.png": "/sneha-website/static/media/Debugging.30961a795086dd5c1d7a.png",
+    "static/media/mosac.jpg": "/sneha-website/static/media/mosac.26a44777eb35fcca24f9.jpg",
+    "static/media/functionalities.png": "/sneha-website/static/media/functionalities.108b0b45008d478ac552.png",
+    "static/media/stippling.jpg": "/sneha-website/static/media/stippling.0e9355139732584c01e9.jpg",
+    "static/media/research_interest.png": "/sneha-website/static/media/research_interest.375ad0348a36d42b0f3b.png",
+    "static/media/traceinspector.png": "/sneha-website/static/media/traceinspector.94d2e73dbac3e6b38fad.png",
+    "static/media/SigmaTyper.png": "/sneha-website/static/media/SigmaTyper.077d50374597852efc34.png",
+    "static/media/lines.jpg": "/sneha-website/static/media/lines.33cfaf6a5be66e252f0b.jpg",
+    "static/media/domain.png": "/sneha-website/static/media/domain.695ca2f21469fec7c61a.png",
     "static/media/sneha.jpg": "/sneha-website/static/media/sneha.c45f00761404b9f330a9.jpg",
-    "static/media/logo.svg": "/sneha-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sneha-website/index.html",
-    "main.a62bd47a.css.map": "/sneha-website/static/css/main.a62bd47a.css.map",
-    "main.dda1a945.js.map": "/sneha-website/static/js/main.dda1a945.js.map",
-    "787.3d4f6c66.chunk.js.map": "/sneha-website/static/js/787.3d4f6c66.chunk.js.map"
+    "main.fc0706bd.css.map": "/sneha-website/static/css/main.fc0706bd.css.map",
+    "main.8a6bbed0.js.map": "/sneha-website/static/js/main.8a6bbed0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62bd47a.css",
-    "static/js/main.dda1a945.js"
+    "static/css/main.fc0706bd.css",
+    "static/js/main.8a6bbed0.js"
   ]
 }
