@@ -19,7 +19,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import InfoIcon from '@mui/icons-material/Info';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
-import snehaProfileImg from './img/sneha.png';
+// import snehaProfileImg from './img/sneha.png';
 
 const drawerWidth = 250;
 
@@ -59,7 +59,7 @@ const App = () => {
                 >
                     <Card style={{ flexDirection: 'column', boxShadow: 'none', backgroundColor: '#173F5F' }}>
                         <CardMedia style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
-                            <img src={snehaProfileImg} alt="Sneha Gathani" className={classes.profilePic}/>
+                            <img src={require('./img/sneha.png')} alt="Sneha Gathani" className={classes.profilePic}/>
                         </CardMedia>
                         <CardContent>
                             <Typography className={classes.profileDetails}>
