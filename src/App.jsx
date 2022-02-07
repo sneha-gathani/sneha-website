@@ -19,7 +19,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import InfoIcon from '@mui/icons-material/Info';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
-import snehaProfileImg from 'static/media/sneha.0a5355b96e0eed992236.png';
+import snehaProfileImg from './img/sneha.png';
 
 const drawerWidth = 250;
 
