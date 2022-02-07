@@ -540,7 +540,7 @@ const App = () => {
 
                     {/* Research section */}
                     <Container maxWidth="xl" className={classes.Container} id="research" style={{ margin: 0, padding: 0, height: 'auto', }}>
-                        <Typography className={classes.headNames}>Research</Typography>
+                        <Typography className={classes.headNames}>Selected Research Projects</Typography>
                         <Box sx={{ flexGrow: 1, }} className={classes.researchPaper} style={{ marginBottom: '12px', }}>
                             <Grid container spacing={2} style={{ paddingLeft: '15px', }}>
                                 <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
