@@ -206,13 +206,14 @@ const App = () => {
                         <Divider style={{ marginTop: '25px', marginBottom: '25px', }} />
                         <Typography className={classes.headNames2}>News</Typography>
                         <div style={{ marginLeft: '15px', }}>
-                            {/* <div style={{ display: 'flex', flexDirection: 'row' }}>
+                            {<div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>February 2022 </b>One paper</Typography>
                                 <Receipt className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}>accepted at EuroVis 2022</Typography>
                                 
                             </div>
+                            /* 
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>February 2022 </b>Recieved the <a href="https://giving.umd.edu/giving/Fund.php?name=amit-and-ruchi-mehta-graduate-research-award" target="_blank" rel="noreferrer" className={classes.a}>Mehta Grad Award 2022</a></Typography>
@@ -249,7 +250,7 @@ const App = () => {
                     {/* Publications section */}
                     <Container maxWidth="xl" className={classes.Container} id="publications" style={{ margin: 0, padding: 0, height: 'auto' }}>
                         <Typography className={classes.headNames}>Publications</Typography>
-                        {/* <Grid container xs={11} style={{ marginBottom: '12px', }}>
+                        <Grid container xs={11} style={{ marginBottom: '12px', }}>
                             <Grid item xs container direction="column" spacing={2} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
@@ -312,7 +313,7 @@ const App = () => {
                                 className={classes.cardMediaImage}
                             />
                             </Grid>
-                        </Grid> */}
+                        </Grid>
                         <Divider />
 
                         <Grid container xs={11} style={{ marginBottom: '12px', marginTop: '12px', }}>
@@ -585,17 +586,17 @@ const App = () => {
                                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                                             <AutoAwesomeIcon className={classes.paperIcons} />
                                             <Typography>
-                                                <i><b className={classes.bold}>Under review at EuroVis 2022</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
+                                                <i><b className={classes.bold}>EuroVis 2022</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
                                             </Typography>
                                             <ArticleIcon className={classes.paperIcons} />
                                             <Typography>
                                                 <i>Full Paper</i>
-                                                {/* <b> | </b><i><b className={classes.bold}>Acceptance</b></i> */}
+                                                <b> | </b><i><b className={classes.bold}>Acceptance</b></i>
                                             </Typography>
-                                            {/* <PercentIcon className={classes.paperIcons} />
+                                            <PercentIcon className={classes.paperIcons} />
                                             <Typography>
                                             <i> 25%</i>
-                                            </Typography> */}
+                                            </Typography>
                                         </div>
                                         <Typography style={{ marginTop: '20px', marginBottom: '25px', }}>
                                         Researchers collect large amounts of user interaction data with the goal of mapping user’s workflows and behaviors to their higher-level motivations, intuitions, and goals. Although the visual analytics community has proposed numerous taxonomies to facilitate this mapping process, no formal methods exist for systematically applying these existing theories to user interaction logs.
