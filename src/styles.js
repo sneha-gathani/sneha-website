@@ -5,10 +5,12 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#173F5F !important',
         color: '#FFF',
         justifyContent: 'center',
+        height: '100vh',
+        width: '17vw',
     },
     profilePic: {
         borderRadius: '50%',
-        height: '170px',
+        height: '21vh',
         border: '0.3rem solid #aeb2b5',
     },
     profileDetails: {
@@ -30,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
     socialIconBackground: {
         backgroundColor: '#aeb2b5',
         borderRadius: '50%',
-        height: '35px',
-        width: '35px',
+        height: '45px',
+        width: '45px',
         '&:hover': {
             backgroundColor: '#E98973',
         },
@@ -49,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     button: {
         minHeight: '0 !important',
         minWidth: '0 !important',
-        fontSize: '14px',  
+        fontSize: '22px',  
         color: '#FFF',
         fontWeight: '800 !important', 
         fill: '#FFF',        
@@ -80,8 +82,7 @@ const useStyles = makeStyles((theme) => ({
     },
     navBarListItem: {
         justifyContent: 'center',
-        paddingTop: '5px',
-        paddingRight: '10px',
+        paddingTop: '0.5vh',
         fontSize: 16,
     },
 
@@ -106,6 +107,8 @@ const useStyles = makeStyles((theme) => ({
         placeContent: 'center',
         display: 'flex',
         flexDirection: 'column',
+        width: '82vw',
+        margin: '0px',
     },
 
     headNames2: {
