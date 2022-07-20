@@ -22,12 +22,12 @@
     "static/media/lines.jpg": "/sneha-website/static/media/lines.33cfaf6a5be66e252f0b.jpg",
     "static/media/domain.png": "/sneha-website/static/media/domain.695ca2f21469fec7c61a.png",
     "static/media/sneha.jpg": "/sneha-website/static/media/sneha.c45f00761404b9f330a9.jpg",
-    "index.html": "./sneha-website/index.html",
+    "index.html": "/sneha-website/index.html",
     "main.fc0706bd.css.map": "/sneha-website/static/css/main.fc0706bd.css.map",
     "main.1a1d6078.js.map": "/sneha-website/static/js/main.1a1d6078.js.map"
   },
   "entrypoints": [
-    "/static/css/main.fc0706bd.css",
-    "/static/js/main.1a1d6078.js"
+    "Home/static/css/main.fc0706bd.css",
+    "Home/static/js/main.1a1d6078.js"
   ]
 }
