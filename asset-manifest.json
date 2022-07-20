@@ -27,7 +27,7 @@
     "main.1a1d6078.js.map": "/sneha-website/static/js/main.1a1d6078.js.map"
   },
   "entrypoints": [
-    "sneha-website/static/css/main.fc0706bd.css",
-    "sneha-website/static/js/main.1a1d6078.js"
+    "./static/css/main.fc0706bd.css",
+    "./static/js/main.1a1d6078.js"
   ]
 }
