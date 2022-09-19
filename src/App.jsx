@@ -240,7 +240,7 @@ const App = () => {
                             <Grid item xs container direction="column" spacing={4} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
-                                        A Grammatic Approach to Applying Visualization Taxonomies to Interaction Logs
+                                        A Grammar-Based Approach for Applying Visualization Taxonomies to Interaction Logs
                                     </Typography>
                                     <Typography className={classes.authors}>
                                         <b className={classes.bold}>Sneha Gathani</b>, Shayan Monadjemi, Alvitta Ottley, Leilani Battle
@@ -592,7 +592,7 @@ const App = () => {
                                 <Grid item xs container direction="column" spacing={2} style={{ justifyContent: 'center', }}>
                                     <CardContent sx={{ flex: '1 0 auto' }}>
                                         <Typography className={classes.title}>
-                                            A Grammatic Approach to Applying Visualization Taxonomies to Interaction Logs
+                                            A Grammar-Based Approach for Applying Visualization Taxonomies to Interaction Logs
                                         </Typography>
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Shayan Monadjemi, Alvitta Ottley, Leilani Battle
