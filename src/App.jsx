@@ -12,10 +12,13 @@ import useStyles from './styles';
 import ArticleIcon from '@mui/icons-material/Article';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import InfoIcon from '@mui/icons-material/Info';
+import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 // import snehaProfileImg from './img/sneha.png';
@@ -187,7 +190,7 @@ const App = () => {
                     <Container maxWidth="xl" id="about_me" className={classes.Container} style={{ margin: 0, padding: 0, height: '100vh', width: '82vw', }}>
                         <Typography className={classes.headNames}>Hi, I am Sneha Gathani!</Typography>
                         <Typography className={classes.allContent}>
-                            I am a 2<sup>nd</sup> year Ph.D. student at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park (UMD)</a>, advised 
+                            I am a 3<sup>rd</sup> year Ph.D. student at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park (UMD)</a>, advised 
                             by <a href="https://www.zcliu.org/" target="_blank" rel="noreferrer" className={classes.a}>Prof. Zhicheng Liu</a>. I am a part of the <a href="https://hdi.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}> Human-Data Interaction 
                             Group</a> and <a href="https://hcil.umd.edu/" target="_blank" rel="noreferrer"className={classes.a}>HCIL</a>. My research interests lie in the space of <i>interactive visual data analysis systems, 
                             interactive visual data-driven decision-making systems, visual systems fostering trust in AI models, and human-centered AI</i>.
@@ -205,32 +208,27 @@ const App = () => {
                         <div style={{ marginLeft: '15px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>February 2022 </b>One paper</Typography>
-                                <Receipt className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}>accepted at EuroVis 2022</Typography>
-                                
+                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>Awared scholarship to attend GHC 2022</Typography>
+                                <CelebrationIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent}>in-person</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>October 2021 </b>My summer intern research at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> published at CIDR 2022 as a full paper</Typography>
-                                <Receipt className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>One full paper</Typography>
+                                <ReceiptLongIcon className={classes.newsIcon1} />
+                                <Typography> submitted to CHI 2023 in collaboration with <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a></Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>October 2021 </b>Another summer intern research at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> published at CIDR 2022 as an abstract</Typography>
-                                <ShortTextIcon className={classes.newsIcon1} />
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2021 </b>Summer internship</Typography>
+                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>Research continuing with</Typography>
                                 <PrecisionManufacturingIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> continued through the Fall 2021 semester</Typography>
+                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> through the Fall 2022 semester</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>April 2021 </b>Research intern</Typography>
-                                <PrecisionManufacturingIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> with <a href="https://hci.stanford.edu/~cagatay/" target="_blank" rel="noreferrer" className={classes.a}>Çağatay Demiralp</a> for Summer 2021</Typography>
+                                <Typography className={classes.newsContent}><b className={classes.bold}>June 2022 </b>Presented</Typography>
+                                <RecordVoiceOverIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent}>EuroVis 2022 paper in Rome, Italy in-person</Typography>
                             </div>
                         </div>
                     </Container>
@@ -282,6 +280,10 @@ const App = () => {
                                         <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
                                             <SearchIcon className={classes.publicationIcons} />
                                             <a href="https://arxiv.org/abs/2201.03740#:~:text=A%20Programmatic%20Approach%20to%20Applying%20Visualization%20Taxonomies%20to%20Interaction%20Logs,-Sneha%20Gathani%2C%20Shayan&text=Researchers%20collect%20large%20amounts%20of,motivations%2C%20intuitions%2C%20and%20goals." target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
+                                            <RecordVoiceOverIcon className={classes.publicationIcons} />
+                                            <a href="https://www.youtube.com/watch?v=t7PVqvh0iQ4&list=PLSlLplD3pBWjPUtD5sU8qPmCkN_nn8ZZj&t=3105s" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
                                         </div>
                                         <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
                                             <GitHub className={classes.publicationIcons} />
@@ -515,6 +517,62 @@ const App = () => {
                     {/* Research section */}
                     <Container maxWidth="xl" className={classes.Container} id="research" style={{ margin: 0, padding: 0, height: 'auto', }}>
                         <Typography className={classes.headNames}>Selected Research Projects</Typography>
+                        <Box sx={{ flexGrow: 1, }} className={classes.researchPaper} style={{ marginBottom: '2vh', }}>
+                            <Grid container spacing={2} style={{ paddingLeft: '1vw', }}>
+                                <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
+                                    <CardMedia
+                                        component="img"
+                                        image={require('./img/methodology.png')}
+                                        className={classes.cardMediaImage}
+                                    />
+                                </Grid>
+                                <Grid item xs={12} sm container>
+                                <Grid item xs container direction="column" spacing={2} style={{ justifyContent: 'center', }}>
+                                    <CardContent sx={{ flex: '1 0 auto' }}>
+                                        <Typography className={classes.title}>
+                                            Predictive and Prescriptive Analytics in Business Decision Making: Needs and Concerns
+                                        </Typography>
+                                        <Typography className={classes.authors}>
+                                            <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Peter J. Haas, Çağatay Demiralp
+                                        </Typography>
+                                        <Box style={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
+                                            <Button className={classes.keywords} disable>
+                                                Enterprise Analysis System
+                                            </Button>
+                                            {bull}
+                                            <Button className={classes.keywords} disable>
+                                                Interactive Visual System
+                                            </Button>
+                                            {bull}
+                                            <Button className={classes.keywords} disable>
+                                                What-If Analysis
+                                            </Button>
+                                            {bull}
+                                            <Button className={classes.keywords} disable>
+                                                Evaluation Study
+                                            </Button>
+                                        </Box>
+                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <ManageSearchIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                <i><b className={classes.bold}>Under Review: CHI 2023</b> SIGCHI Conference on Human Factors in Computer Systems </i><b>| </b> 
+                                            </Typography>
+                                            <ArticleIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                <i>Full Paper</i>
+                                            </Typography>
+                                        </div>
+                                        <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
+                                        Previous research on business decision making identifies challenges of information overload and lack of effective tools to perform data-driven analysis. However, there is little systematic understanding of the goals and decisions of business users, the nature of data, tools, and processes used in their decision making, and their experiences, needs, and challenges of using predictive and prescriptive analytics (PPA).
+                                        In response, we conduct a two-part user study with 22 professional business users to understand their decision making process and feedback on using PPA. Business users primarily rely on manual methods, thus unable to cope with increasing data sizes and complexities and making fast decisions. While they desire PPA to inform decision making, they have concerns about readying data for analysis, interpreting risk factors of predictions, tying domain expertise and knowledge to predictions, and capturing volatile ecological and market conditions. Based on our findings, we suggest research directions for future business analytics systems.
+                                        </Typography>
+                                    </CardContent> 
+                                </Grid>
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        <Divider />
+
                         <Box sx={{ flexGrow: 1, }} className={classes.researchPaper} style={{ marginBottom: '2vh', }}>
                             <Grid container spacing={2} style={{ paddingLeft: '1vw', }}>
                                 <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
