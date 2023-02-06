@@ -223,7 +223,7 @@ const App = () => {
                                 <CampaignIcon className={classes.newsIcon} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>November 2022 </b>Incoming research intern</Typography>
                                 <CelebrationIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> for summer 2023.</Typography>
+                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> for summer 2023</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
