@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Typography, Box, Button, Card, CardMedia, CardContent, Container, CssBaseline, Divider, Drawer, Grid, IconButton, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from '@material-ui/core';
 import { Person, Visibility, Receipt, CollectionsBookmark, ColorLens, Contacts, GitHub, Email, LinkedIn, School } from '@material-ui/icons';
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import SearchIcon from '@mui/icons-material/Search';
@@ -208,21 +210,27 @@ const App = () => {
                         <div style={{ marginLeft: '15px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>December 2022 </b>Research continuing</Typography>
+                                <PrecisionManufacturingIcon className={classes.newsIcon1} />
+                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> through the Spring 2023 semester</Typography>
+                            </div>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <CampaignIcon className={classes.newsIcon} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>December 2022 </b>One full paper</Typography>
+                                <ReceiptLongIcon className={classes.newsIcon1} />
+                                <Typography> submitted to EuroVis 2023 in collaboration with <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a></Typography>
+                            </div>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <CampaignIcon className={classes.newsIcon} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>November 2022 </b>Incoming research intern</Typography>
+                                <CelebrationIcon className={classes.newsIcon1} />
+                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> for summer 2023.</Typography>
+                            </div>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <CampaignIcon className={classes.newsIcon} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>Awared scholarship to attend GHC 2022</Typography>
                                 <CelebrationIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}>in-person</Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>One full paper</Typography>
-                                <ReceiptLongIcon className={classes.newsIcon1} />
-                                <Typography> submitted to CHI 2023 in collaboration with <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a></Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>Research continuing with</Typography>
-                                <PrecisionManufacturingIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> through the Fall 2022 semester</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
@@ -505,7 +513,7 @@ const App = () => {
                     <Container className={classes.Container} maxWidth="xl" id="research_interests" style={{ margin: 0, padding: 0, height: 'auto', }}>
                         <Typography className={classes.headNames}>Research Interests</Typography>
                         <Typography className={classes.allContent} style={{ marginLeft: '5px', marginTop: '4vh', marginBottom: '4vh', }}>
-                            My research seeks to understand how business users <i>comprehend machine learning models</i>, (e.g., regression models that predict sales, profit, customer acquisition cost, customer retention rate, etc.), <i>enhance their trust in the model predictions</i> and <i>promote their engagement with the models</i>. Business users such as sales, operations, or accounts managers leverage large customer interaction data with the product to plan decisions for future quarters for goals like increasing customer retention, hypothesizing an ideal customer journey formula, etc. With easy and affordable access to large data via cloud computing, business users have shown keen interest in using machine learning models to help guide their decisions. Although various visualization and interactive tools have been developed to explain, diagnose and refine machine learning models, these techniques are too complex and technical for business users to use because they are not computer scientists, ML experts, or statisticians. Therefore, there has been an increased need for understanding and interpreting machine learning models to ensure that business users develop an appropriate trust in them, that is don’t misuse (overuse or over-trust) or reject (underuse or under-trust) them. 
+                            My research seeks to understand how business users <i>comprehend predictive and prescriptive analytics</i> (e.g., regression models that predict sales, profit, customer acquisition cost, customer retention rate, etc.), <i>enhance their trust in the predictions</i> and <i>promote their engagement with the underlying models</i>. Business users such as sales, operations, or accounts managers leverage large customer interaction data with the product to plan decisions for future quarters for goals like increasing customer retention, hypothesizing an ideal customer journey formula, etc. With easy and affordable access to large data via cloud computing, business users have shown keen interest in using predictive and prescriptive analytics to help guide their decisions. Although various visualization and interactive tools have been developed to explain, diagnose and refine machine learning models, these techniques are too complex and technical for business users to use because they are not computer scientists, ML experts, or statisticians. Therefore, there has been an increased need for understanding and interpreting machine learning models to ensure that business users develop an appropriate trust in them, that is don’t misuse (overuse or over-trust) or reject (underuse or under-trust) them. 
                             Bearing this motivation, I am interested in <i>conducting studies and building techniques and systems that have potential to reach a broad audience of business users</i>.
                         </Typography>
                         <div data-aos="fade-up" style={{ display: 'flex', justifyContent: 'center', }}>
@@ -552,10 +560,10 @@ const App = () => {
                                                 Evaluation Study
                                             </Button>
                                         </Box>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
                                             <ManageSearchIcon className={classes.paperIcons} />
                                             <Typography>
-                                                <i><b className={classes.bold}>Under Review: CHI 2023</b> SIGCHI Conference on Human Factors in Computer Systems </i><b>| </b> 
+                                                <i><b className={classes.bold}>Under Review: EuroVis 2023</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
                                             </Typography>
                                             <ArticleIcon className={classes.paperIcons} />
                                             <Typography>
@@ -563,9 +571,18 @@ const App = () => {
                                             </Typography>
                                         </div>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
-                                        Previous research on business decision making identifies challenges of information overload and lack of effective tools to perform data-driven analysis. However, there is little systematic understanding of the goals and decisions of business users, the nature of data, tools, and processes used in their decision making, and their experiences, needs, and challenges of using predictive and prescriptive analytics (PPA).
-                                        In response, we conduct a two-part user study with 22 professional business users to understand their decision making process and feedback on using PPA. Business users primarily rely on manual methods, thus unable to cope with increasing data sizes and complexities and making fast decisions. While they desire PPA to inform decision making, they have concerns about readying data for analysis, interpreting risk factors of predictions, tying domain expertise and knowledge to predictions, and capturing volatile ecological and market conditions. Based on our findings, we suggest research directions for future business analytics systems.
+                                            Business users make data-informed decisions by understanding the relationships between their data and business outcomes, typically tracked by key performance indicators (KPIs). To this end, they evaluate different decision scenarios, often using what-if analyses, which can benefit from predictive and prescriptive analytics (PPA). However, incorporating PPA into data analysis systems in a way that is easy to use and understand by business users can be challenging. Numerous studies have examined how data analysts use simple predictive analytics. However, there is little systematic understanding and empirical data on business users' analysis practices for decision-making and the effectiveness of various PPA affordances in facilitating their analysis. To address this gap, we conduct a study with 22 business users to better understand their workflows and elicit feedback on the effectiveness of four example PPA functionalities in business data analysis. We find that business users can't depend on data analysts for their data analysis due to four reasons: the limited availability of data analysts in enterprises, the inefficiency of communicating with data analysts, the business pressure to make quick decisions, and the importance of incorporating domain knowledge, which data analysts often lack. We also find that business users rely on interactive manual analysis using spreadsheet-like applications, which makes coping with large, live, and complex datasets difficult. While business users don't use PPA directly, their data analysis needs suggest that they can benefit from it. We also find that PPA functionalities can increase business users' decision-making speed and confidence. Additionally, our results suggest that they need help in PPA-driven analysis for preparing datasets, understanding the risk factors of recommendations, and incorporating their domain knowledge.
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
+                                                <PictureAsPdfIcon className={classes.publicationIcons} />
+                                                <a href="https://arxiv.org/pdf/2212.13643.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper Draft</Typography></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
+                                                <ReadMoreIcon className={classes.publicationIcons} />
+                                                <a href="https://tinyurl.com/PPA-Supplementary" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Supplementary Materials</Typography></a>
+                                            </div>
+                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
