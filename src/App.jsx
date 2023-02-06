@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Typography, Box, Button, Card, CardMedia, CardContent, Container, CssBaseline, Divider, Drawer, Grid, IconButton, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from '@material-ui/core';
 import { Person, Visibility, Receipt, CollectionsBookmark, ColorLens, Contacts, GitHub, Email, LinkedIn, School } from '@material-ui/icons';
-import CelebrationIcon from '@mui/icons-material/Celebration';
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
