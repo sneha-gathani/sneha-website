@@ -22,7 +22,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
-// import snehaProfileImg from './img/sneha.png';
+import DesignServicesIcon from '@mui/icons-material/DesignServices';
 
 const drawerWidth = '30vw';
 
@@ -90,7 +90,7 @@ const App = () => {
                                 <IconButton aria-label="Google Scholar" className={classes.socialIconBackground} href="https://scholar.google.com/citations?user=n3f44dkAAAAJ&hl=en">
                                     <School className={classes.socialIcon} />
                                 </IconButton>
-                                <Button label="CV" className={classes.socialIconBackground} href="https://drive.google.com/file/d/1lOs2vZMD9Pq4OMSVjVN2pyml3VWcyany/view?usp=sharing">
+                                <Button label="CV" className={classes.socialIconBackground} href="https://drive.google.com/file/d/1S3wEJNWWKtJnaR5xBfcu7KZsE7_0bfmR/view?usp=sharing">
                                     <Typography className={classes.button}>CV</Typography>
                                 </Button>
                             </div>
@@ -186,20 +186,20 @@ const App = () => {
                 </Drawer>
                 <Box
                     component="main"
-                    sx={{ flexGrow: 1, bgcolor: '#FFF', paddingLeft: '17.5vw', width: '100vw', marginLeft: 0, }}
+                    sx={{ flexGrow: 1, bgcolor: '#FFF', paddingLeft: '18vw', width: '100vw', marginLeft: 0, }}
                 >
-                    <Container maxWidth="xl" id="about_me" className={classes.Container} style={{ margin: 0, padding: 0, height: '100vh', width: '82vw', }}>
+                    <Container maxWidth="xl" id="about_me" className={classes.Container} style={{ margin: 0, padding: 0, height: '100vh', width: '80vw', }}>
                         <Typography className={classes.headNames}>Hi, I am Sneha Gathani!</Typography>
                         <Typography className={classes.allContent}>
-                            I am a 3<sup>rd</sup> year Ph.D. student at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park (UMD)</a>, advised 
-                            by <a href="https://www.zcliu.org/" target="_blank" rel="noreferrer" className={classes.a}>Prof. Zhicheng Liu</a>. I am a part of the <a href="https://hdi.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}> Human-Data Interaction 
-                            Group</a> and <a href="https://hcil.umd.edu/" target="_blank" rel="noreferrer"className={classes.a}>HCIL</a>. My research interests lie in the space of <i>interactive visual data analysis systems, 
-                            interactive visual data-driven decision-making systems, visual systems fostering trust in AI models, and human-centered AI</i>.
+                            I am a 4<sup>th</sup> year Ph.D. student at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park</a>, advised 
+                            by <a href="https://www.zcliu.org/" target="_blank" rel="noreferrer" className={classes.a}>Dr. Leo Zhicheng Liu</a>. I am a part of the <a href="https://hdi.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}> Human-Data Interaction 
+                            Group</a> and <a href="https://hcil.umd.edu/" target="_blank" rel="noreferrer"className={classes.a}>HCIL</a>. My research interests lie in developing <i>interactive visual data systems</i> that can serve as intuitive and impactful tools for 
+                            facilitating <i>data-driven decision-making processes</i> through the perspective of <i>human-centered AI</i>.
                         </Typography>
                         <Typography style={{ display: 'block', }}>{'\n'}</Typography>
                         <Typography className={classes.allContent}>
-                            I graduated with a Master's in Computer Science also from UMD in May 2020. During Master's, I worked with <a href="https://www.cs.umd.edu/~leilani/bio.html" target="_blank" rel="noreferrer" className={classes.a}>Prof. 
-                            Leilani Battle</a> as part of the <a href="https://battle-data-lab.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>BAttle Data Lab (BAD Lab)</a> at the intersection of Data Visualization, Databases 
+                            I graduated with a Master's in Computer Science also from the University of Maryland in May 2020. During Master's, I worked with <a href="https://www.cs.umd.edu/~leilani/bio.html" target="_blank" rel="noreferrer" className={classes.a}>Prof. 
+                            Leilani Battle</a> as part of the <a href="https://battle-data-lab.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>BAttle Data Lab (BAD Lab)</a> at the intersection of Data Visualization, Databases, 
                             and HCI. Prior to grad school, I completed my Bachelors in Computer Engineering from <a href="https://pict.edu/?__cf_chl_captcha_tk__=035092ebe160b7b8d5fedd48ab431de1066b92f9-1591140710-0-AWYC-6QkN1egyq9RJfAjWGMhla9poOxNHhCZDL7-iZBS5yYT3ghX65o0JQ2-O_iNKjRj-1YsWuQzvjOeZv_cxCyBa6q85iZsFqdeKlaXHF9o9-NjFx7KOmcIf_zXb2wqYbQvj8aKgc_tM_8HMnPbVZSKWpO_WOebfvblSJ1EZU_81TqcNtUjSZEA5l-aFKnhK7J-l1PbbxLpdy8lZlg34IViBZE1bOTmyxVgsTWT0oS-SCb_WNPAAfyd6Wa4-ucV2Rttf5Oy_XXQXBLstMQ2fH2mniwTTJ5CaHXbfJtPM9kMg7A8pDuYgs5RoAksrGIxUelTMIx_m2nT8xHWY-tqMcBAqup7FUR8HVDjM7rC0FsnVK4nFuBqipibQtyVV7eAQ0LmzdR1R4Mok9NPzJlr4YDMfDwMBihFb6V57EKO5JFoLBjEzr0j27Kw0HKruAofvpdrRNF3RIvYMimQJrlQwYT3eCQYe5Sv6t3UQyGYBN_2" target="_blank" rel="noreferrer" className={classes.a}>
                             University of Pune, India</a> with a focus in Computer Science.
                         </Typography>
@@ -209,41 +209,23 @@ const App = () => {
                         <div style={{ marginLeft: '15px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>December 2022 </b>Research continuing</Typography>
+                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2023 </b>Looking for research/applied research internship opportunities</Typography>
                                 <PrecisionManufacturingIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a> through the Spring 2023 semester</Typography>
+                                <Typography> for summer 2024</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>December 2022 </b>One full paper</Typography>
-                                <ReceiptLongIcon className={classes.newsIcon1} />
-                                <Typography> submitted to EuroVis 2023 in collaboration with <a href="https://www.sigmacomputing.com/" target="_blank" rel="noreferrer" className={classes.a}>Sigma Computing Inc.</a></Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>November 2022 </b>Incoming research intern</Typography>
+                                <Typography className={classes.newsContent}><b className={classes.bold}>August 2023 </b>Completed research internship</Typography>
                                 <CelebrationIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> for summer 2023</Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2022 </b>Awared scholarship to attend GHC 2022</Typography>
-                                <CelebrationIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}>in-person</Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>June 2022 </b>Presented</Typography>
-                                <RecordVoiceOverIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}>EuroVis 2022 paper in Rome, Italy in-person</Typography>
+                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> in summer 2023. Targeting to submit the research to EuroVis 2024</Typography>
                             </div>
                         </div>
                     </Container>
 
                     {/* Publications section */}
-                    <Container maxWidth="xl" className={classes.Container} id="publications" style={{ margin: 0, padding: 0, width: '82vw', height: 'auto' }}>
+                    <Container maxWidth="xl" className={classes.Container} id="publications" style={{ margin: 0, padding: 0, width: '80vw', height: 'auto' }}>
                         <Typography className={classes.headNames}>Publications</Typography>
-                        <Grid container xs={11} style={{ marginBottom: '1.5vh', }}>
+                        <Grid container xs={12} style={{ marginBottom: '1.5vh', }}>
                             <Grid item xs container direction="column" spacing={4} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
@@ -252,6 +234,22 @@ const App = () => {
                                     <Typography className={classes.authors}>
                                         <b className={classes.bold}>Sneha Gathani</b>, Shayan Monadjemi, Alvitta Ottley, Leilani Battle
                                     </Typography>
+                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                        <AutoAwesomeIcon className={classes.paperIcons} />
+                                        <Typography>
+                                            &nbsp;<i>Computer Graphics Forum (Proceedings of <b className={classes.bold}>EuroVis 2022</b>)</i>&nbsp;&nbsp;<b className={classes.bold}>|</b>&nbsp;&nbsp;    
+                                        </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://arxiv.org/pdf/2201.03740.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://www.youtube.com/watch?v=t7PVqvh0iQ4&list=PLSlLplD3pBWjPUtD5sU8qPmCkN_nn8ZZj&t=3105s" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '0.1vw', }}>
+                                            <a href="https://tinyurl.com/regular-grammar-taxonomies" target="_blank" rel="noreferrer" className={classes.publicationLink}><GitHub className={classes.publicationIcons} /></a>
+                                            {/* <a href="https://tinyurl.com/regular-grammar-taxonomies" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Code</Typography></a> */}
+                                        </div>
+                                    </div>
                                     <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                         <Button className={classes.keywords} disable>
                                             Visualization Taxonomies
@@ -269,37 +267,9 @@ const App = () => {
                                             Framework
                                         </Button>
                                     </Box>
-                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                        <AutoAwesomeIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i><b className={classes.bold}>EuroVis 2022</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
-                                        </Typography>
-                                        <ArticleIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i>Full Paper</i>
-                                        </Typography>
-                                    </div>
-                                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '1vh', }}>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <PictureAsPdfIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/pdf/2201.03740.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <SearchIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/abs/2201.03740#:~:text=A%20Programmatic%20Approach%20to%20Applying%20Visualization%20Taxonomies%20to%20Interaction%20Logs,-Sneha%20Gathani%2C%20Shayan&text=Researchers%20collect%20large%20amounts%20of,motivations%2C%20intuitions%2C%20and%20goals." target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                            <a href="https://www.youtube.com/watch?v=t7PVqvh0iQ4&list=PLSlLplD3pBWjPUtD5sU8qPmCkN_nn8ZZj&t=3105s" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                            <GitHub className={classes.publicationIcons} />
-                                            <a href="https://tinyurl.com/regular-grammar-taxonomies" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Code</Typography></a>
-                                        </div>
-                                    </div>
                                 </CardContent>
                             </Grid>
-                            <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
+                            <Grid item style={{ marginRight: '3vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
                             <CardMedia
                                 component="img"
                                 image={require('./img/mapping_process.png')}
@@ -309,7 +279,7 @@ const App = () => {
                         </Grid>
                         <Divider />
 
-                        <Grid container xs={11} style={{ marginBottom: '1.5vh', marginTop: '1.5vh', }}>
+                        <Grid container xs={12} style={{ marginBottom: '3vh', marginTop: '3vh', }}>
                             <Grid item xs container direction="column" spacing={4} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
@@ -318,6 +288,21 @@ const App = () => {
                                     <Typography className={classes.authors}>
                                         <b className={classes.bold}>Sneha Gathani</b>, Madelon Hulsebos, James Gale , Peter J. Haas, Çağatay Demiralp
                                     </Typography>
+                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                        <AutoAwesomeIcon className={classes.paperIcons} />
+                                        <Typography>
+                                            &nbsp;<i>Conference on Innovative Data Systems Research (<b className={classes.bold}>CIDR 2022</b>)</i>&nbsp;&nbsp;<b className={classes.bold}>|</b>&nbsp;&nbsp;
+                                        </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://arxiv.org/pdf/2109.06160.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://drive.google.com/file/d/1PZqyPjd99-HmsTDXZOJzEVVJJIHMSO82/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><VideoLibraryIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '0.1vw', }}>
+                                            <a href="https://www.youtube.com/watch?v=an-oTVQzHT0" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                        </div>    
+                                    </div>
                                     <Box sx={{ display: 'flex', flexDirection: 'row',  marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                         <Button className={classes.keywords} disable>
                                             Business Data Analysis
@@ -343,37 +328,9 @@ const App = () => {
                                             Constrained Analysis
                                         </Button>
                                     </Box>
-                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                        <AutoAwesomeIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i><b className={classes.bold}>CIDR 2022</b> Conference on Innovative Data Systems Research </i><b>| </b> 
-                                        </Typography>
-                                        <ArticleIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i>Full Paper</i>
-                                        </Typography>
-                                    </div>
-                                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '1vh', }}>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <PictureAsPdfIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/pdf/2109.06160.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <SearchIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/abs/2109.06160" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <VideoLibraryIcon className={classes.publicationIcons} />
-                                            <a href="https://drive.google.com/file/d/1PZqyPjd99-HmsTDXZOJzEVVJJIHMSO82/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Video</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                            <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                            <a href="https://www.youtube.com/watch?v=an-oTVQzHT0" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                        </div>
-                                    </div>
                                 </CardContent> 
                             </Grid>
-                            <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}>
+                            <Grid item style={{ marginRight: '3vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}>
                                 <CardMedia
                                     component="img"
                                     image={require('./img/functionalities.png')}
@@ -383,7 +340,7 @@ const App = () => {
                         </Grid>
                         <Divider />
 
-                        <Grid container xs={11} style={{ marginBottom: '1.5vh', marginTop: '1.5vh', }}>
+                        <Grid container xs={12} style={{ marginBottom: '3vh', marginTop: '3vh', }}>
                             <Grid item xs container direction="column" spacing={4} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
@@ -392,6 +349,21 @@ const App = () => {
                                     <Typography className={classes.authors}>
                                         Madelon Hulsebos, <b className={classes.bold}>Sneha Gathani</b>, James Gale , Isil Dillig, Paul Groth, Çağatay Demiralp
                                     </Typography>
+                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                    <AutoAwesomeIcon className={classes.paperIcons} />
+                                        <Typography>
+                                            &nbsp;<i>Conference on Innovative Data Systems Research (<b className={classes.bold}>CIDR 2022</b>)</i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b> 
+                                        </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://arxiv.org/pdf/2109.05173.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.3vw', }}>
+                                            <a href="https://drive.google.com/file/d/1sTrM7vI2o82tMFcHJRgcMpPlU1y0GRlt/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><VideoLibraryIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '0.1vw', }}>
+                                            <a href="https://www.youtube.com/watch?v=-BE5rWNMXnU" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                    </div>
                                     <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                         <Button className={classes.keywords} disable>
                                             Semantic Column Type Detection
@@ -405,37 +377,9 @@ const App = () => {
                                             Framework
                                         </Button>
                                     </Box>
-                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <AutoAwesomeIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i><b className={classes.bold}>CIDR 2022</b> Conference on Innovative Data Systems Research </i><b>| </b> 
-                                        </Typography>
-                                        <ShortTextIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i>Abstract</i>
-                                        </Typography>
-                                    </div>
-                                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '1vh', }}>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <PictureAsPdfIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/pdf/2109.05173.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <SearchIcon className={classes.publicationIcons} />
-                                            <a href="https://arxiv.org/abs/2109.05173" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <VideoLibraryIcon className={classes.publicationIcons} />
-                                            <a href="https://drive.google.com/file/d/1sTrM7vI2o82tMFcHJRgcMpPlU1y0GRlt/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Video</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                            <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                            <a href="https://www.youtube.com/watch?v=-BE5rWNMXnU" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                        </div>
-                                    </div>
                                 </CardContent> 
                             </Grid>
-                            <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
+                            <Grid item style={{ marginRight: '3vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
                                 <CardMedia
                                     component="img"
                                     image={require('./img/SigmaTyper.png')}
@@ -445,7 +389,7 @@ const App = () => {
                         </Grid>
                         <Divider />
 
-                        <Grid container xs={11} style={{ marginBottom: '1.5vh', marginTop: '1.5vh', }}>
+                        <Grid container xs={12} style={{ marginBottom: '3vh', marginTop: '3vh', }}>
                             <Grid item xs container direction="column" spacing={4} style={{ justifyContent: 'center', }}>
                                 <CardContent sx={{ flex: '1 0 auto' }}>
                                     <Typography className={classes.title}>
@@ -454,6 +398,18 @@ const App = () => {
                                     <Typography className={classes.authors}>
                                         <b className={classes.bold}>Sneha Gathani</b>, Peter Lim, Leilani Battle
                                     </Typography>
+                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                        <AutoAwesomeIcon className={classes.paperIcons} />
+                                        <Typography>
+                                            <i>&nbsp;Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (<b className={classes.bold}>CHI, 2020</b>)</i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                                        </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
+                                            <a href="https://homes.cs.washington.edu/~leibatt/static/papers/gathani_debugging_CHI_2020.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '-0.1vw', }}>
+                                            <a href="https://www.youtube.com/watch?v=auCLjsBi6zE" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                        </div>
+                                    </div>
                                     <Box sx={{ display: 'flex', flexDirection: 'row', marginBottom: '0.5vh', marginTop: '0.5vh', }}>
                                         <Button className={classes.keywords} disable>
                                             Debugging Database Queries
@@ -471,33 +427,9 @@ const App = () => {
                                             New Design Guidelines
                                         </Button>
                                     </Box>
-                                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                        <AutoAwesomeIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i><b className={classes.bold}>CHI 2020</b> SIGCHI Conference on Human Factors in Computer Systems </i><b>| </b> 
-                                        </Typography>
-                                        <ArticleIcon className={classes.paperIcons} />
-                                        <Typography>
-                                            <i>Full Paper</i>
-                                        </Typography>
-                                    </div>
-                                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '1vh', }}>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <PictureAsPdfIcon className={classes.publicationIcons} />
-                                            <a href="https://homes.cs.washington.edu/~leibatt/static/papers/gathani_debugging_CHI_2020.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                            <SearchIcon className={classes.publicationIcons} />
-                                            <a href="https://dl.acm.org/doi/10.1145/3313831.3376485" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                            <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                            <a href="https://www.youtube.com/watch?v=auCLjsBi6zE" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                        </div>
-                                    </div>
                                 </CardContent> 
                             </Grid>
-                            <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
+                            <Grid item style={{ marginRight: '3vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
                                 <CardMedia
                                     component="img"
                                     image={require('./img/Debugging.png')}
@@ -509,11 +441,20 @@ const App = () => {
                     </Container>
 
                     {/* Research Interests section */}
-                    <Container className={classes.Container} maxWidth="xl" id="research_interests" style={{ margin: 0, padding: 0, height: 'auto', }}>
+                    <Container className={classes.Container} maxWidth="xl" id="research_interests" style={{ margin: 0, padding: 0, height: 'auto', width: '80vw', }}>
                         <Typography className={classes.headNames}>Research Interests</Typography>
                         <Typography className={classes.allContent} style={{ marginLeft: '5px', marginTop: '4vh', marginBottom: '4vh', }}>
-                            My research seeks to understand how business users <i>comprehend predictive and prescriptive analytics</i> (e.g., regression models that predict sales, profit, customer acquisition cost, customer retention rate, etc.), <i>enhance their trust in the predictions</i> and <i>promote their engagement with the underlying models</i>. Business users such as sales, operations, or accounts managers leverage large customer interaction data with the product to plan decisions for future quarters for goals like increasing customer retention, hypothesizing an ideal customer journey formula, etc. With easy and affordable access to large data via cloud computing, business users have shown keen interest in using predictive and prescriptive analytics to help guide their decisions. Although various visualization and interactive tools have been developed to explain, diagnose and refine machine learning models, these techniques are too complex and technical for business users to use because they are not computer scientists, ML experts, or statisticians. Therefore, there has been an increased need for understanding and interpreting machine learning models to ensure that business users develop an appropriate trust in them, that is don’t misuse (overuse or over-trust) or reject (underuse or under-trust) them. 
-                            Bearing this motivation, I am interested in <i>conducting studies and building techniques and systems that have potential to reach a broad audience of business users</i>.
+                        My research focuses on empowering business professionals, including sales, marketing, product, and operations managers, as well as business analysts, to maximize the benefits of
+                        <i>descriptive, predictive, and prescriptive analytics</i>. This involves helping them extract more meaningful and domain knowledge driven statistical insights such as correlations,
+                        distributions, outliers, among others, and boosting their confidence and trust in predictions generated from regression and classification models, critical for forecasting business
+                        outcomes like sales, profit, customer acquisition costs, and customer retention rates. With cloud computing’s widespread accessibility to vast data, business users are increasingly
+                        leveraging advanced analytics. They utilize rich customer interaction and product data to automate insights and employ predictive and prescriptive analytics to inform data-driven decisions
+                        that help plan for future quarters. However, a significant challenge lies in bridging the gap between these powerful automated and analytic tools and the users who wield them. Existing visualization
+                        and interactive tools, while valuable in explaining, diagnosing, and refining underlying black box engines and models, often prove excessively complex and technical for end-users who lack a background
+                        in computer scientists, machine learning expertise, or statistics. Nonetheless, they have the domain knowledge and experience that is crucial for their business decisions. Therefore, there is a pressing
+                        need to develop guided, understandable, interpretable, and usable approaches that cater to the unique needs and expertise of business users. Bearing this motivation, I am interested in <i>conducting
+                        rigorous studies and developing techniques and interactive systems that have potential to make advanced analytics accessible to a wide audience of business professionals, thereby enabling them to make
+                        data-informed decisions and drive meaningful business outcomes through data</i>.
                         </Typography>
                         <div data-aos="fade-up" style={{ display: 'flex', justifyContent: 'center', }}>
                             <img className={classes.creativeImage} src={require('./img/research_interest.png')} alt="" width="1000px" />
@@ -522,7 +463,7 @@ const App = () => {
                     </Container>
 
                     {/* Research section */}
-                    <Container maxWidth="xl" className={classes.Container} id="research" style={{ margin: 0, padding: 0, height: 'auto', }}>
+                    <Container maxWidth="xl" className={classes.Container} id="research" style={{ margin: 0, padding: 0, height: 'auto', width: '80vw', }}>
                         <Typography className={classes.headNames}>Selected Research Projects</Typography>
                         <Box sx={{ flexGrow: 1, }} className={classes.researchPaper} style={{ marginBottom: '2vh', }}>
                             <Grid container spacing={2} style={{ paddingLeft: '1vw', }}>
@@ -542,6 +483,18 @@ const App = () => {
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Peter J. Haas, Çağatay Demiralp
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
+                                            <ManageSearchIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                &nbsp;<i><b className={classes.bold}>Under Review:</b> IEEE Transactions on Visualization & Computer Graphics (Proceedings IEEE VIS'24) </i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                                            </Typography>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.2vw', }}>
+                                                <a href="https://arxiv.org/pdf/2212.13643.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><DesignServicesIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.1vw', }}>
+                                                <a href="https://tinyurl.com/PPA-Supplementary" target="_blank" rel="noreferrer" className={classes.publicationLink}><ReadMoreIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                        </div>
                                         <Box style={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                             <Button className={classes.keywords} disable>
                                                 Enterprise Analysis System
@@ -559,29 +512,14 @@ const App = () => {
                                                 Evaluation Study
                                             </Button>
                                         </Box>
-                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
-                                            <ManageSearchIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i><b className={classes.bold}>Under Review: EuroVis 2023</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
-                                            </Typography>
-                                            <ArticleIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i>Full Paper</i>
-                                            </Typography>
-                                        </div>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
-                                            Business users make data-informed decisions by understanding the relationships between their data and business outcomes, typically tracked by key performance indicators (KPIs). To this end, they evaluate different decision scenarios, often using what-if analyses, which can benefit from predictive and prescriptive analytics (PPA). However, incorporating PPA into data analysis systems in a way that is easy to use and understand by business users can be challenging. Numerous studies have examined how data analysts use simple predictive analytics. However, there is little systematic understanding and empirical data on business users' analysis practices for decision-making and the effectiveness of various PPA affordances in facilitating their analysis. To address this gap, we conduct a study with 22 business users to better understand their workflows and elicit feedback on the effectiveness of four example PPA functionalities in business data analysis. We find that business users can't depend on data analysts for their data analysis due to four reasons: the limited availability of data analysts in enterprises, the inefficiency of communicating with data analysts, the business pressure to make quick decisions, and the importance of incorporating domain knowledge, which data analysts often lack. We also find that business users rely on interactive manual analysis using spreadsheet-like applications, which makes coping with large, live, and complex datasets difficult. While business users don't use PPA directly, their data analysis needs suggest that they can benefit from it. We also find that PPA functionalities can increase business users' decision-making speed and confidence. Additionally, our results suggest that they need help in PPA-driven analysis for preparing datasets, understanding the risk factors of recommendations, and incorporating their domain knowledge.
+                                        Business users such as sales, marketing, product, and operations managers need to make data-driven decisions to improve business processes and outcomes. While earlier work has focused on data analysts’ and data scientists’ practices and 
+                                        challenges, little is known about business users’ decision-making practices and how they incorporate data analytics into their workflows. To address this gap, we first conduct an interview study with 22 business users to understand the general practices
+                                        and challenges in their decision-making workflows. We contribute a model of business users’ data-driven decision-making processes and elaborate on their tasks, tools, and challenges at each of the model’s stages. We also find that business users perform data analysis without relying on data analysts due to many practical constraints and considerations. As a result, they often use tools and
+                                        methods that are insufficient to conduct analysis. These findings suggest a need for advanced predictive and prescriptive analytics (PPA) tools to support what-if analysis. Motivated by this need, we perform a follow-up, task-based study to understand PPA’s role
+                                        and potential in the decision-making processes of business users. We find that PPA helps improve efficiency and boosts confidence in decision-making. However, business users acknowledge that PPA-powered what-if analysis tools are still in the nascent stage
+                                        and identify concerns and areas of improvement before it can be fully integrated into their decision-making workflows. Finally, we discuss the implications of our study’s findings on the design of future data and visual analytics systems for business users.
                                         </Typography>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <PictureAsPdfIcon className={classes.publicationIcons} />
-                                                <a href="https://arxiv.org/pdf/2212.13643.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper Draft</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                                <ReadMoreIcon className={classes.publicationIcons} />
-                                                <a href="https://tinyurl.com/PPA-Supplementary" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Supplementary Materials</Typography></a>
-                                            </div>
-                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
@@ -613,6 +551,18 @@ const App = () => {
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Shayan Monadjemi, Alvitta Ottley, Leilani Battle
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <AutoAwesomeIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                &nbsp;<i>Computer Graphics Forum (Proceedings of <b className={classes.bold}>EuroVis 2022</b>)</i>&nbsp;&nbsp;<b className={classes.bold}>|</b>&nbsp;&nbsp;    
+                                            </Typography>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.2vw', }}>
+                                                <a href="https://arxiv.org/pdf/2201.03740.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.1vw', }}>
+                                                <a href="https://tinyurl.com/regular-grammar-taxonomies" target="_blank" rel="noreferrer" className={classes.publicationLink}><GitHub className={classes.publicationIcons} /></a>
+                                            </div>
+                                        </div>
                                         <Box style={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                             <Button className={classes.keywords} disable>
                                                 Visualization Taxonomies
@@ -630,38 +580,14 @@ const App = () => {
                                                 Framework
                                             </Button>
                                         </Box>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <AutoAwesomeIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i><b className={classes.bold}>EuroVis 2022</b> Eurographics Working Group on Data Visualization </i><b>| </b> 
-                                            </Typography>
-                                            <ArticleIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i>Full Paper</i>
-                                            </Typography>
-                                        </div>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
                                         Researchers collect large amounts of user interaction data with the goal of mapping user’s workflows and behaviors to their higher-level motivations, intuitions, and goals. Although the visual analytics community has proposed numerous taxonomies to facilitate this mapping process, no formal methods exist for systematically applying these existing theories to user interaction logs.
                                         This paper seeks to bridge the gap between visualization task taxonomies and interaction log data by making the taxonomies more actionable for interaction log analysis. To achieve this, we leverage structural parallels between how people express themselves through interactions and language by reformulating existing theories as <i>regular grammars</i>.
                                         We represent interactions as <i>terminals</i> within a regular grammar, similar to the role of individual words in a language, and patterns of interactions or <i>non-terminals</i> as regular expressions over these terminals to capture common language patterns.
                                         To demonstrate our approach, we generate <i>regular grammars</i> for seven visualization taxonomies and develop code to apply them to three interaction log datasets.
                                         In analyzing our results, we find that existing taxonomies at the low-level (i.e., terminals) show mixed results in expressing multiple interaction log datasets, and taxonomies at the high-level (i.e., regular expressions) have limited expressiveness, due to primarily two challenges: inconsistencies in interaction log dataset granularity and structure, and under-expressiveness of certain terminals.
-                                        Based on our findings, we suggest new research directions for the visualization community for augmenting existing taxonomies, developing new ones, and building better interaction log recording processes to facilitate the data-driven development of user behavior taxonomie.
+                                        Based on our findings, we suggest new research directions for the visualization community for augmenting existing taxonomies, developing new ones, and building better interaction log recording processes to facilitate the data-driven development of user behavior taxonomies.
                                         </Typography>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <PictureAsPdfIcon className={classes.publicationIcons} />
-                                                <a href="https://arxiv.org/pdf/2201.03740.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <SearchIcon className={classes.publicationIcons} />
-                                                <a href="https://arxiv.org/abs/2201.03740#:~:text=A%20Programmatic%20Approach%20to%20Applying%20Visualization%20Taxonomies%20to%20Interaction%20Logs,-Sneha%20Gathani%2C%20Shayan&text=Researchers%20collect%20large%20amounts%20of,motivations%2C%20intuitions%2C%20and%20goals." target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                                <GitHub className={classes.publicationIcons} />
-                                                <a href="https://tinyurl.com/regular-grammar-taxonomies" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Code</Typography></a>
-                                            </div>
-                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
@@ -694,6 +620,21 @@ const App = () => {
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Madelon Hulsebos, James Gale , Peter J. Haas, Çağatay Demiralp
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
+                                            <AutoAwesomeIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                &nbsp;<i>Conference on Innovative Data Systems Research (<b className={classes.bold}>CIDR 2022</b>)</i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b> 
+                                            </Typography>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.2vw', }}>
+                                                <a href="https://arxiv.org/pdf/2109.06160.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.2vw', }}>
+                                                <a href="https://drive.google.com/file/d/1PZqyPjd99-HmsTDXZOJzEVVJJIHMSO82/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><VideoLibraryIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.1vw', }}>
+                                                <a href="https://www.youtube.com/watch?v=an-oTVQzHT0" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                        </div>
                                         <Box style={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                             <Button className={classes.keywords} disable>
                                                 Business Data Analysis
@@ -719,39 +660,11 @@ const App = () => {
                                                Constrained Analysis
                                             </Button>
                                         </Box>
-                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
-                                            <AutoAwesomeIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i><b className={classes.bold}>CIDR 2022</b> Conference on Innovative Data Systems Research </i><b>| </b> 
-                                            </Typography>
-                                            <ArticleIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i>Full Paper</i>
-                                            </Typography>
-                                        </div>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
                                         The fundamental goal of business data analysis is to improve business decisions using data. Business users such as sales, marketing, product, or operations managers often make decisions to achieve key performance indicator (KPI) goals such as increasing customer retention, decreasing cost, and increasing sales. To discover the relationship between data attributes hypothesized to be drivers and those corresponding to KPIs of interest, business users currently need to perform lengthy exploratory analyses, considering multitudes of combinations and scenarios, slicing, dicing, and transforming the data accordingly. For example, analyzing customer retention across quarters of the year or suggesting optimal media channels across strata of customers. However, the increasing complexity of datasets combined with the cognitive limitations of humans makes it challenging to carry over multiple hypotheses, even for simple datasets. Therefore mentally performing such analyses is hard. Existing commercial tools either provide partial solutions whose effectiveness remains unclear or fail to cater to business users.
                                         <Typography style={{ display: 'block', }}>{'\n'}</Typography>
                                         Here we argue for four functionalities that we believe are necessary to enable business users to interactively learn and reason about the relationships (functions) between sets of data attributes, facilitating data-driven decision making. We implement these functionalities in SystemD, an interactive visual analysis system enabling business users to experiment with the data by asking <i>what-if</i> questions. We evaluate the system through three business use cases: marketing mix modeling analysis, customer retention analysis, and deal closing analysis, and report on feedback from multiple business users. Overall, business users find SystemD intuitive and useful for quick testing and validation of their hypotheses around interested KPI as well as in making effective and fast data-driven decisions.
                                         </Typography>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <PictureAsPdfIcon className={classes.publicationIcons} />
-                                                <a href="https://arxiv.org/pdf/2109.06160.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <SearchIcon className={classes.publicationIcons} />
-                                                <a href="https://arxiv.org/abs/2109.06160" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <VideoLibraryIcon className={classes.publicationIcons} />
-                                                <a href="https://drive.google.com/file/d/1PZqyPjd99-HmsTDXZOJzEVVJJIHMSO82/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Video</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                                <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                                <a href="https://www.youtube.com/watch?v=an-oTVQzHT0" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                            </div>
-                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
@@ -784,6 +697,9 @@ const App = () => {
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Kartik Krishnan, Daniel Votipka, Kristopher Micinski , Jeffrey Foster, Michelle Mazurek, Leilani Battle
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vh', }}>
+                                            <a href="https://drive.google.com/file/d/1wPjqrtSqSTJWVGJisJJTFrJ7BJKeBBIH/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                        </div>
                                         <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                             <Button className={classes.keywords} disable>
                                                 Design Study Model
@@ -804,12 +720,6 @@ const App = () => {
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
                                         Visualization design studies are notoriously difficult to design effectively. Though existing models highlight the major pitfalls, their guidance is not as user-friendly for individuals new to design studies. We present an <i>updated design study model</i> providing step-by-step guidelines, concrete examples, and discussion of differences and similarities between design studies in eight different domains.  To demonstrate the value of our model and guidelines, we apply them in the security domain to help fledgling analysts <i>reverse engineer</i> (RE) Android applications (apps) for potential security and privacy vulnerabilities. Through our design study, we develop <i>TraceInspector</i>, an interactive visualization tool that integrates both static and dynamic Android app data, connects relevant temporal event sequences and method dependencies, and executes app code in a single visualization interface. Finally, we evaluate TraceInspector with nine RE users and find that the tool eases the learning of RE tasks for novice RE users, validating our synthesized design study guidance.
                                         </Typography>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vh', }}>
-                                                <PictureAsPdfIcon className={classes.publicationIcons} />
-                                                <a href="https://drive.google.com/file/d/1wPjqrtSqSTJWVGJisJJTFrJ7BJKeBBIH/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                            </div>
-                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
@@ -836,6 +746,18 @@ const App = () => {
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Peter Lim, Leilani Battle
                                         </Typography>
+                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
+                                            <AutoAwesomeIcon className={classes.paperIcons} />
+                                            <Typography>
+                                                <i>&nbsp;Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (<b className={classes.bold}>CHI, 2020</b>)</i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                                            </Typography>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.2vw', }}>
+                                                <a href="https://homes.cs.washington.edu/~leibatt/static/papers/gathani_debugging_CHI_2020.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><PictureAsPdfIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.1vw', }}>
+                                                <a href="https://www.youtube.com/watch?v=auCLjsBi6zE" target="_blank" rel="noreferrer" className={classes.publicationLink}><RecordVoiceOverIcon className={classes.publicationIcons} /></a>
+                                            </div>
+                                        </div>
                                         <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: '0.5vh', marginBottom: '0.5vh', }}>
                                             <Button className={classes.keywords} disable>
                                                 Debugging Database Queries
@@ -853,35 +775,11 @@ const App = () => {
                                                 New Design Guidelines
                                             </Button>
                                         </Box>
-                                        <div style={{ display: 'flex', flexDirection: 'row', }}>
-                                            <AutoAwesomeIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i><b className={classes.bold}>CHI 2020</b> SIGCHI Conference on Human Factors in Computer Systems </i><b>| </b> 
-                                            </Typography>
-                                            <ArticleIcon className={classes.paperIcons} />
-                                            <Typography>
-                                                <i>Full Paper</i>
-                                            </Typography>
-                                        </div>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
                                             Database management systems (or DBMSs) have been around for decades, and yet are still difficult to use, particularly when trying to identify and fix errors in user programs (or queries).
                                             We seek to understand what methods have been proposed to help people debug database queries, and whether these techniques have ultimately been adopted by DBMSs (and users). We conducted an interdisciplinary review of 112 papers and tools from the <i>database, visualization</i> and <i>HCI communities</i>. To better understand whether academic and industry approaches are meeting the needs of users, we interviewed
                                             20 database users (and some designers), and found surprising results. In particular, there seems to be a wide gulf between user's debugging strategies and the functionality implemented in existing DBMSs, as well as proposed in the literature. In response, we propose new design guidelines to help system designers to build features that more closely match users debugging strategies.
                                         </Typography>
-                                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <PictureAsPdfIcon className={classes.publicationIcons} />
-                                                <a href="https://homes.cs.washington.edu/~leibatt/static/papers/gathani_debugging_CHI_2020.pdf" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Paper</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginRight: '0.5vw', }}>
-                                                <SearchIcon className={classes.publicationIcons} />
-                                                <a href="https://dl.acm.org/doi/10.1145/3313831.3376485" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>DOI</Typography></a>
-                                            </div>
-                                            <div style={{ display: 'flex', flexDirection: 'row', marginLeft: '0.5vw', }}>
-                                                <RecordVoiceOverIcon className={classes.publicationIcons} />
-                                                <a href="https://www.youtube.com/watch?v=auCLjsBi6zE" target="_blank" rel="noreferrer" className={classes.publicationLink}><Typography className={classes.publicationContent}>Talk</Typography></a>
-                                            </div>
-                                        </div>
                                     </CardContent> 
                                 </Grid>
                                 </Grid>
@@ -958,7 +856,7 @@ const App = () => {
                                     <InfoIcon className={classes.contactIcon} />
                                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                                         <Typography className={classes.headNames2}>Read my CV</Typography>
-                                        <Button target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1lOs2vZMD9Pq4OMSVjVN2pyml3VWcyany/view?usp=sharing" className={classes.cvbutton}>
+                                        <Button target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1S3wEJNWWKtJnaR5xBfcu7KZsE7_0bfmR/view?usp=sharing" className={classes.cvbutton}>
                                             CV
                                         </Button>  
                                     </div>

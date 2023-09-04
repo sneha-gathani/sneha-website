@@ -179,8 +179,9 @@ const useStyles = makeStyles((theme) => ({
     publicationIcons: {
         color: '#E98973',
         paddingRight: 1,
+        fontSize: '20px',
         '& svg': {
-          fontSize: 10,
+          fontSize: 8,
         },
     },
     publicationContent: {
