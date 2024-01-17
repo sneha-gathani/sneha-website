@@ -217,7 +217,7 @@ const App = () => {
                                 <CampaignIcon className={classes.newsIcon} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>August 2023 </b>Completed research internship</Typography>
                                 <CelebrationIcon className={classes.newsIcon1} />
-                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> in summer 2023. Targeting to submit the research to EuroVis 2024</Typography>
+                                <Typography> at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> in summer 2023. Targeting to submit the research to VIS 2024</Typography>
                             </div>
                         </div>
                     </Container>
@@ -478,7 +478,7 @@ const App = () => {
                                 <Grid item xs container direction="column" spacing={2} style={{ justifyContent: 'center', }}>
                                     <CardContent sx={{ flex: '1 0 auto' }}>
                                         <Typography className={classes.title}>
-                                            Predictive and Prescriptive Analytics in Business Decision Making: Needs and Concerns
+                                            Understanding Business Users’ Data-Driven Decision-Making: Practices, Challenges, and Opportunities                  
                                         </Typography>
                                         <Typography className={classes.authors}>
                                             <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Peter J. Haas, Çağatay Demiralp
@@ -513,12 +513,15 @@ const App = () => {
                                             </Button>
                                         </Box>
                                         <Typography style={{ marginTop: '1vh', marginBottom: '2vh', }}>
-                                        Business users such as sales, marketing, product, and operations managers need to make data-driven decisions to improve business processes and outcomes. While earlier work has focused on data analysts’ and data scientists’ practices and 
-                                        challenges, little is known about business users’ decision-making practices and how they incorporate data analytics into their workflows. To address this gap, we first conduct an interview study with 22 business users to understand the general practices
-                                        and challenges in their decision-making workflows. We contribute a model of business users’ data-driven decision-making processes and elaborate on their tasks, tools, and challenges at each of the model’s stages. We also find that business users perform data analysis without relying on data analysts due to many practical constraints and considerations. As a result, they often use tools and
-                                        methods that are insufficient to conduct analysis. These findings suggest a need for advanced predictive and prescriptive analytics (PPA) tools to support what-if analysis. Motivated by this need, we perform a follow-up, task-based study to understand PPA’s role
-                                        and potential in the decision-making processes of business users. We find that PPA helps improve efficiency and boosts confidence in decision-making. However, business users acknowledge that PPA-powered what-if analysis tools are still in the nascent stage
-                                        and identify concerns and areas of improvement before it can be fully integrated into their decision-making workflows. Finally, we discuss the implications of our study’s findings on the design of future data and visual analytics systems for business users.
+                                        Business users perform data analysis to inform decisions for improving business processes and outcomes despite having limited formal technical training. While earlier work has focused on data analysts' and
+                                        data scientists' practices and challenges, little is known about business users' decision-making practices and how they incorporate data and visual analytics into their workflows. To address this gap, we first
+                                        conduct an interview study with 22 business users to understand the general practices and challenges in their data-driven decision-making processes. We contribute an end-to-end model of business users' data-driven
+                                        decision-making processes elaborating the tasks, tools, and challenges at each stage. We find that business users analyze data without relying on data analysts due to various practical constraints and considerations.
+                                        However, their existing tools are inadequate, particularly in helping understand the relationship between data variables and business goals and facilitating the exploration of what-if scenarios. These findings suggest
+                                        a need for advanced predictive and prescriptive analytics (PPA) tools to support what-if analysis. Motivated by this need, we perform a follow-up, task-based study to understand PPA's role and potential in business
+                                        users' decision-making processes. We find that PPA helps improve efficiency and confidence in decision-making.  However, business users also believe that PPA-powered what-if analysis tools are currently in their
+                                        nascent stages and report improvements before fully integrating them into their decision-making processes. Building upon these findings, we discuss the opportunities and challenges in incorporating PPA into data-driven
+                                        decision-making and its implications for future data and visual analytics systems.
                                         </Typography>
                                     </CardContent> 
                                 </Grid>
