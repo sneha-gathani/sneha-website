@@ -203,21 +203,21 @@ const App = () => {
                         <Typography className={classes.headNames2}>News</Typography>
                         <div style={{ marginLeft: '15px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
+                                <CampaignIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>June 2024 </b>Previous summer internship work at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> is accepted </Typography>
                                 <AutoAwesomeIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}>at VIS 2024 as a short paper!</Typography>
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>at VIS 2024 as a short paper!</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
+                                <CampaignIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>May 2024 </b>Started summer internship at <a href="https://www.microsoft.com/en-us/research/group/vida/" target="_blank" rel="noreferrer" className={classes.a}>Microsoft Research</a></Typography>
                                 <InterestsIcon className={classes.newsIcon1} />
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon} />
+                                <CampaignIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>May 2024 </b>Advanced to being a PhD Candidate</Typography>
                                 <CelebrationIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}>!!</Typography>
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>!!</Typography>
                             </div>
                         </div>
                     </Container>

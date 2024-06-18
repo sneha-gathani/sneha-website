@@ -262,7 +262,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold',
     },
     newsContent: {
-        fontSize: 16,
+        fontSize: '14px',
         color: '#000',
     },
     newsIcon1: {
@@ -282,7 +282,7 @@ const useStyles = makeStyles((theme) => ({
     },
     bold: {
         color: '#000',
-        fontSize: '16px',
+        fontSize: '14px',
     },
 
     publicationImage: {
