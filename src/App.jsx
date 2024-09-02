@@ -3,10 +3,12 @@ import { Typography, Box, Button, Card, CardMedia, CardContent, Container, CssBa
 import { Person, Visibility, Receipt, CollectionsBookmark, ColorLens, Contacts, GitHub, Email, LinkedIn, School } from '@material-ui/icons';
 
 import { CardActions, Link } from '@mui/material';
+import AddAlertIcon from '@mui/icons-material/AddAlert';
 import InboxIcon from '@mui/icons-material/Inbox';
 import MovieIcon from '@mui/icons-material/Movie';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import CodeIcon from '@mui/icons-material/Code';
+import DoneAllIcon from '@mui/icons-material/DoneAll';
 
 import DescriptionIcon from '@mui/icons-material/Description';
 import CampaignIcon from '@mui/icons-material/Campaign';
@@ -200,18 +202,30 @@ const App = () => {
                         </Typography>
                         <Typography style={{ display: 'block' }}>{'\n'}</Typography>
                         <Divider style={{ marginTop: '25px', marginBottom: '25px', }} />
+
                         <Typography className={classes.headNames2}>News</Typography>
-                        <div style={{ marginLeft: '15px', }}>
+                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                            <AddAlertIcon className={classes.noteIcon} />
+                            <Typography className={classes.note}>I am on the job market, actively looking for research positions starting in May 2025. If you have any opportunities or would like to discuss potential collaborations, please feel free to reach out!</Typography>
+                        </div>
+                        <div style={{ marginLeft: '15px', marginTop: '8px', }}>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <CampaignIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2024 </b>One work submitted</Typography>
+                                <DoneAllIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>to CHI 2025!</Typography>
+                            </div>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <CampaignIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent}><b className={classes.bold}>August 2024 </b>Completed summer internship at <a href="https://www.microsoft.com/en-us/research/group/vida/" target="_blank" rel="noreferrer" className={classes.a}>Microsoft Research</a></Typography>
+                                <InterestsIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>and continuing to work on the project. Targeting submission to VIS 2025!</Typography>
+                            </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>June 2024 </b>Previous summer internship work at <a href="https://research.tableau.com/" target="_blank" rel="noreferrer" className={classes.a}>Salesforce/Tableau Research</a> is accepted </Typography>
                                 <AutoAwesomeIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>at VIS 2024 as a short paper!</Typography>
-                            </div>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <CampaignIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>May 2024 </b>Started summer internship at <a href="https://www.microsoft.com/en-us/research/group/vida/" target="_blank" rel="noreferrer" className={classes.a}>Microsoft Research</a></Typography>
-                                <InterestsIcon className={classes.newsIcon1} />
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon1} />
@@ -261,7 +275,7 @@ const App = () => {
                                         <CardMedia component="img" image={require('./img/groot.png')} onClick={() => toggleEnlarge('./img/groot.png')} className={classes.publicationImage} />
                                         <CardContent>
                                             <Typography className={classes.title}>
-                                                Groot: An Interface for Editing and Configuring Automated Data Insights
+                                                Groot: A System for Editing and Configuring Automated Data Insights
                                             </Typography>
                                             <Typography className={classes.authors}>
                                                 <b className={classes.bold}>Sneha Gathani</b>, Anamaria Crisan, Vidya Setlur, Arjun Srinivasan

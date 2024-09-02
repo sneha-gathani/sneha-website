@@ -256,6 +256,19 @@ const useStyles = makeStyles((theme) => ({
         margin: '0px',
     },
 
+    note: {
+        fontSize: 17,
+        color: '#000',
+        fontWeight: 'bold',
+    },
+    noteIcon: {
+        color: '#DFB15B',
+        paddingRight: 3,
+        '& svg': {
+          fontSize: 20,
+        },
+    },
+
     headNames2: {
         fontSize: 25,
         color: '#DF825F',
