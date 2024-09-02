@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sneha-website/static/css/main.fc0706bd.css",
-    "main.js": "/sneha-website/static/js/main.f93d5124.js",
+    "main.js": "/sneha-website/static/js/main.da4af51a.js",
     "static/media/sneha.png": "/sneha-website/static/media/sneha.0a5355b96e0eed992236.png",
     "static/media/tower.png": "/sneha-website/static/media/tower.36a21ba35e4c9083b75b.png",
     "static/media/cry.png": "/sneha-website/static/media/cry.3e63106c6b454db0ed49.png",
@@ -32,10 +32,10 @@
     "static/media/sneha.jpg": "/sneha-website/static/media/sneha.c45f00761404b9f330a9.jpg",
     "index.html": "/sneha-website/index.html",
     "main.fc0706bd.css.map": "/sneha-website/static/css/main.fc0706bd.css.map",
-    "main.f93d5124.js.map": "/sneha-website/static/js/main.f93d5124.js.map"
+    "main.da4af51a.js.map": "/sneha-website/static/js/main.da4af51a.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0706bd.css",
-    "static/js/main.f93d5124.js"
+    "static/js/main.da4af51a.js"
   ]
 }
