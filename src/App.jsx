@@ -206,7 +206,7 @@ const App = () => {
                         <Typography className={classes.headNames2}>News</Typography>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <AddAlertIcon className={classes.noteIcon} />
-                            <Typography className={classes.note}>I am on the job market, actively looking for research positions starting in May 2025. If you have any opportunities or would like to discuss potential collaborations, please feel free to reach out!</Typography>
+                            <Typography className={classes.note}>I am on the job market, actively looking for research or engineering positions starting in May 2025. If you have any opportunities or would like to discuss potential collaborations, please feel free to reach out!</Typography>
                         </div>
                         <div style={{ marginLeft: '15px', marginTop: '8px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -310,6 +310,13 @@ const App = () => {
                                                     <Typography>Demo</Typography>
                                                 </Link>
                                             </Box>
+                                            <Box className={classes.pill}>
+                                                <MovieIcon className={classes.icon} />
+                                                <Link href="https://www.youtube.com/watch?v=5O_zfoG4xOo&t=3160s" className={classes.iconPill}>
+                                                    <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
+                                                    <Typography>Talk</Typography>
+                                                </Link>
+                                            </Box>
                                         </CardActions>
                                     </Card>
                                 </Grid>
@@ -352,7 +359,7 @@ const App = () => {
                                                 <MovieIcon className={classes.icon} />
                                                 <Link href="https://www.youtube.com/watch?v=t7PVqvh0iQ4&list=PLSlLplD3pBWjPUtD5sU8qPmCkN_nn8ZZj&t=3105s" className={classes.iconPill}>
                                                     <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
-                                                    <Typography>Video</Typography>
+                                                    <Typography>Talk</Typography>
                                                 </Link>
                                             </Box>
                                             <Box className={classes.pill}>
@@ -403,7 +410,7 @@ const App = () => {
                                                 <MovieIcon className={classes.icon} />
                                                 <Link href="https://www.youtube.com/watch?v=an-oTVQzHT0" className={classes.iconPill}>
                                                     <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
-                                                    <Typography>Video</Typography>
+                                                    <Typography>Talk</Typography>
                                                 </Link>
                                             </Box>
                                         </CardActions>
@@ -443,7 +450,7 @@ const App = () => {
                                                 <MovieIcon className={classes.icon} />
                                                 <Link href="https://www.youtube.com/watch?v=-BE5rWNMXnU" className={classes.iconPill}>
                                                     <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
-                                                    <Typography>Video</Typography>
+                                                    <Typography>Talk</Typography>
                                                 </Link>
                                             </Box>
                                         </CardActions>
@@ -482,7 +489,7 @@ const App = () => {
                                                 <MovieIcon className={classes.icon} />
                                                 <Link href="https://www.youtube.com/watch?v=auCLjsBi6zE" className={classes.iconPill}>
                                                     <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
-                                                    <Typography>Video</Typography>
+                                                    <Typography>Talk</Typography>
                                                 </Link>
                                             </Box>
                                         </CardActions>
