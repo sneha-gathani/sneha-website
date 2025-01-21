@@ -189,7 +189,7 @@ const App = () => {
                     <Container maxWidth="xl" id="about_me" className={classes.Container} style={{ margin: 0, padding: 0, height: '100vh', width: '80vw', }}>
                         <Typography className={classes.headNames}>Hi, I am Sneha Gathani!</Typography>
                         <Typography className={classes.allContent}>
-                            I am a 4<sup>th</sup> year Ph.D. candidate at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park</a>, 
+                            I am a 5<sup>th</sup> year Ph.D. candidate at the <a href="https://www.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}>University of Maryland, College Park</a>, 
                             advised by <a href="https://www.zcliu.org/" target="_blank" rel="noreferrer" className={classes.a}>Dr. Leo Zhicheng Liu</a>. I am a part of the 
                             <a href="https://hdi.cs.umd.edu/" target="_blank" rel="noreferrer" className={classes.a}> Human-Data Interaction Group</a> and <a href="https://hcil.umd.edu/" target="_blank" rel="noreferrer"className={classes.a}>HCIL</a>. My research focuses on understanding the <i style={{ color: '#033f63', }}>data-driven decision-making</i> processes of <i style={{ color: '#033f63', }}>users in the business domain</i> and developing <i style={{ color: '#033f63', }}>augmented advanced analytics systems and tooling</i> for better supporting future decision-making solutions.
                         </Typography>
@@ -206,20 +206,20 @@ const App = () => {
                         <Typography className={classes.headNames2}>News</Typography>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <AddAlertIcon className={classes.noteIcon} />
-                            <Typography className={classes.note}>I am on the job market, actively looking for research or engineering positions starting in May 2025. If you have any opportunities or would like to discuss potential collaborations, please feel free to reach out!</Typography>
+                            <Typography className={classes.note}>I am on the job market, actively looking for research or engineering positions starting in Summer 2025. If you have any opportunities or would like to discuss potential collaborations, please feel free to reach out!</Typography>
                         </div>
                         <div style={{ marginLeft: '15px', marginTop: '8px', }}>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent}><b className={classes.bold}>September 2024 </b>One work submitted</Typography>
-                                <DoneAllIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>to CHI 2025!</Typography>
+                                <Typography className={classes.newsContent}><b className={classes.bold}>January 2025 </b><a href="https://drive.google.com/file/d/17YuJyzvy-rG5Y687Z6RomViVYB45M1Gz/view?usp=sharing" target="_blank" rel="noreferrer" className={classes.a}>Work</a> accepted</Typography>
+                                <CelebrationIcon className={classes.newsIcon1} />
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>at CHI 2025!</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon1} />
                                 <Typography className={classes.newsContent}><b className={classes.bold}>August 2024 </b>Completed summer internship at <a href="https://www.microsoft.com/en-us/research/group/vida/" target="_blank" rel="noreferrer" className={classes.a}>Microsoft Research</a></Typography>
                                 <InterestsIcon className={classes.newsIcon1} />
-                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>and continuing to work on the project. Targeting submission to VIS 2025!</Typography>
+                                <Typography className={classes.newsContent} style={{ alignContent: 'center', }}>and continuing to work on the project. Targeting submission to UIST 2025!</Typography>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <CampaignIcon className={classes.newsIcon1} />
@@ -269,6 +269,60 @@ const App = () => {
                         <Typography className={classes.headNames}>Publications</Typography>
                         <Container className="cover-wrapper cover-wrapper-3-col l-page">
                             <Grid container spacing={4}>
+                                {/* This is where I am */}
+                            <Grid item xs={12} md={4}>
+                                    {/* Paper 1 */}
+                                    <Card style={{ outlineStyle: 'solid', outlineColor: 'lightgrey', outlineWidth: 1, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', }}>
+                                        <CardMedia component="img" image={require('./img/ds.png')} onClick={() => toggleEnlarge('./img/ds.png')} className={classes.publicationImage} />
+                                        <CardContent>
+                                            <Typography className={classes.title}>
+                                                What-if Analysis for Business Professionals: Current Practices and Future Opportunities
+                                            </Typography>
+                                            <Typography className={classes.authors}>
+                                                <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Peter J. Haas, Çağatay Demiralp
+                                            </Typography>
+                                            <Typography sx={{ fontSize: '16px', display: 'flex', alignItems: 'center' }} style={{ paddingTop: '5px', }}>
+                                                <AutoAwesomeIcon sx={{ fontSize: '16px', color: '#DF825F', }} /><b style={{ fontSize: '16px', fontWeight: 'bold', marginLeft: '4px' }}>CHI 2025</b>
+                                            </Typography>
+                                            <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
+                                                A two-part user study with business professionals to (1) examine existing what-if analysis techniques employed, tools used, and challenges faced, and (2) evaluate their
+                                                practical use of representative what-if analysis techniques identified in the first study.
+                                                <Typography className={classes.subtitleHide}>This is hidden, this is hidde</Typography>
+                                            </Typography>
+                                        </CardContent>
+                                        <CardActions>
+                                            {/* <Box className={classes.pill}>
+                                                <LinkIcon className={classes.icon} />
+                                                <Link href="/papers/groot" className={classes.iconPill}>
+                                                    <Icon className="fas fa-link" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
+                                                    <Typography>Project</Typography>
+                                                </Link>
+                                            </Box> */}
+                                            <Box className={classes.pill}>
+                                                <DescriptionIcon className={classes.icon} />
+                                                <Link href="https://drive.google.com/file/d/17YuJyzvy-rG5Y687Z6RomViVYB45M1Gz/view?usp=sharing" className={classes.iconPill}>
+                                                    <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
+                                                    <Typography>PDF</Typography>
+                                                </Link>
+                                            </Box>
+                                            <Box className={classes.pill}>
+                                                <PlayArrowIcon className={classes.icon} />
+                                                <Link href="https://drive.google.com/file/d/1TOITEO4pbwm8SJGaVG8LGGp1zBZ5TG-w/view?usp=sharing" className={classes.iconPill}>
+                                                    <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
+                                                    <Typography>Demo</Typography>
+                                                </Link>
+                                            </Box>
+                                            {/* <Box className={classes.pill}>
+                                                <MovieIcon className={classes.icon} />
+                                                <Link href="https://www.youtube.com/watch?v=5O_zfoG4xOo&t=3160s" className={classes.iconPill}>
+                                                    <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
+                                                    <Typography>Talk</Typography>
+                                                </Link>
+                                            </Box> */}
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                                
                                 <Grid item xs={12} md={4}>
                                     {/* Paper 1 */}
                                     <Card style={{ outlineStyle: 'solid', outlineColor: 'lightgrey', outlineWidth: 1, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', }}>
@@ -285,7 +339,7 @@ const App = () => {
                                             </Typography>
                                             <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
                                                 A prototype system that allows users to proactively specify and refine automated data insights.
-                                                <Typography className={classes.subtitleHide}>This is hidden, this is hidden, this is hidden, this is hidden, this is hidden.</Typography>
+                                                <Typography className={classes.subtitleHide}>This is hidden, this is hidden, this is hidden, this is hidden, this is hidden,  this is hidden, this is hidden  this is hidden, this is hidden,  this is hidden, this is hidden.</Typography>
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -337,7 +391,7 @@ const App = () => {
                                             </Typography>
                                             <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
                                                 Reformulating theoretical visualization task taxonomies as regular grammars to make them more actionable for empirical interaction log analysis.
-                                                <Typography className={classes.subtitleHide}>This</Typography>
+                                                <Typography className={classes.subtitleHide}>This  this is hidden, this is hidden  this is hidden, this is hidden  this is hidden, this is hidden  this is hidden, this is hidden</Typography>
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -373,6 +427,10 @@ const App = () => {
                                     </Card>
                                 </Grid>
 
+                            </Grid>
+
+                            <Grid container spacing={4}>
+
                                 <Grid item xs={12} md={4}>
                                     {/* Paper 3 */}
                                     <Card style={{ outlineStyle: 'solid', outlineColor: 'lightgrey', outlineWidth: 1, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', }}>
@@ -390,6 +448,7 @@ const App = () => {
                                             <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
                                                 Understanding the purpose of business data analysis and operationalizing it within an interactive visual data analysis system, SystemD, to enable business users to experiment with the data by asking what-if questions.
                                             </Typography>
+                                            <Typography className={classes.subtitleHide}>This  this is hidden, this is hidden  this is hidden, this is hidden  this is hidden, this is hidden</Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Box className={classes.pill}>
@@ -416,9 +475,7 @@ const App = () => {
                                         </CardActions>
                                     </Card>
                                 </Grid>
-                            </Grid>
 
-                            <Grid container spacing={4}>
                                 <Grid item xs={12} md={4}>
                                     {/* Paper 4 */}
                                     <Card style={{ outlineStyle: 'solid', outlineColor: 'lightgrey', outlineWidth: 1, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', }}>
@@ -435,7 +492,7 @@ const App = () => {
                                             </Typography>
                                             <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
                                                 Learning what do we need for table understanding models to work in practice and develop the SigmaTyper system to infer labeling functions from table based on user's feedback.
-                                                <Typography className={classes.subtitleHide} style={{ paddingTop: '20px', }}>hellloooo this is the hiding text</Typography>
+                                                <Typography className={classes.subtitleHide} style={{ paddingTop: '20px', }}>hellloooo this is this is hidden  this is hidden, this is hidden the hiding text</Typography>
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -474,7 +531,7 @@ const App = () => {
                                             </Typography>
                                             <Typography className={classes.subtitle} style={{ paddingTop: '16px', }}>
                                                 Interdisciplinary literature review and interview study to help understand database debugging strategies.
-                                                <Typography className={classes.subtitleHide} style={{ paddingTop: '20px', }}>hellloooo this is the hiding text hellloooo this is the hiding text hellloooo this is the hiding text</Typography>
+                                                <Typography className={classes.subtitleHide} style={{ paddingTop: '20px', }}>hellloooo this is the hiding text this is hidden  this is hidden, this is hidden hellloooo this is the hiding text hellloooo this is the hiding text</Typography>
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -530,7 +587,7 @@ const App = () => {
                                             <Box className={classes.pillTarget}>
                                                 <FindReplaceIcon className={classes.iconTarget} />
                                                 <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'white', marginRight: '4px' }} aria-hidden="true" />
-                                                <Typography>Under Revision → Target: CHI 2025</Typography>
+                                                <Typography>Under Revision → Target: TVCG 2025</Typography>
                                             </Box>
                                         </div>
                                         <Typography style={{ marginTop: '1vh', color: 'gray', }}>
@@ -555,53 +612,38 @@ const App = () => {
                         <Box sx={{ flexGrow: 1, }} className={classes.researchPaper} style={{ marginBottom: '3vh', outlineStyle: 'solid', outlineColor: 'lightgrey', outlineWidth: 1, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', }}>
                             <Grid container spacing={2} style={{ paddingLeft: '1vw', }}>
                                 <Grid item style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', }}>
-                                    <CardMedia
+                                    {/* <CardMedia
                                         component="img"
                                         image={require('./img/methodology.png')}
                                         className={classes.cardMediaImage}
-                                    />
-                                    <CardMedia
-                                        style={{ paddingTop: '10px', }}
-                                        component="img"
-                                        image={require('./img/model.png')}
-                                        className={classes.cardMediaImage}
-                                    />
+                                    /> */}
                                 </Grid>
                                 <Grid item xs={12} sm container>
                                 <Grid item xs container direction="column" spacing={2} style={{ justifyContent: 'center', }}>
                                     <CardContent sx={{ flex: '1 0 auto' }}>
                                         <Typography className={classes.title}>
-                                            Understanding Business Users' Data-Driven Decision-Making: Practices, Challenges, and Opportunities
+                                            Recommend-o-Matic: Facilitating Analysts Create Interactive Explanations of Decisions and their Trade-Offs
                                         </Typography>
-                                        <Typography className={classes.authors}>
-                                            <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Peter J. Haas, Çağatay Demiralp
-                                        </Typography>
+                                        {/* <Typography className={classes.authors}>
+                                            <b className={classes.bold}>Sneha Gathani</b>, Zhicheng Liu, Dan Marshall, Steven Drucker
+                                        </Typography> */}
                                         <div style={{ display: 'flex', flexDirection: 'row', paddingTop: '5px', alignItems: 'center', }}>
                                             <Box className={classes.pillTarget}>
                                                 <FindReplaceIcon className={classes.iconTarget} />
                                                 <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'white', marginRight: '4px' }} aria-hidden="true" />
-                                                <Typography>Under Revision → Target: CHI 2025</Typography>
+                                                <Typography>Under Progress → Target: UIST 2025</Typography>
                                             </Box>
-                                            <Box className={classes.pill} style={{ marginLeft: '5px', }}>
+                                            {/* <Box className={classes.pill} style={{ marginLeft: '5px', }}>
                                                 <InboxIcon className={classes.icon} />
                                                 <Link href="https://arxiv.org/pdf/2212.13643" className={classes.iconPill}>
                                                     <Icon className="fas fa-pdf" sx={{ fontSize: '16px', color: 'gray', marginRight: '4px' }} aria-hidden="true" />
                                                     <Typography>ArXiv</Typography>
                                                 </Link>
-                                            </Box>
+                                            </Box> */}
                                         </div>
                                         <Typography style={{ marginTop: '1vh', color: 'gray', }}>
-                                            Business users perform data analysis to inform decisions for improving business processes and outcomes despite having limited formal technical training. While earlier
-                                            work has focused on data analysts' and data scientists' practices and challenges, little is known about business users' decision-making practices and how they
-                                            incorporate data and visual analytics into their workflows. To address this gap, we first conduct an interview study with 22 business users to understand the general
-                                            practices and challenges in their data-driven decision-making processes. We contribute an end-to-end model of business users' data-driven decision-making processes
-                                            elaborating the tasks, tools, and challenges at each stage. We find that business users analyze data without relying on data analysts due to various practical
-                                            constraints and considerations. However, their existing tools are inadequate, particularly in helping understand the relationship between data variables and business
-                                            goals and facilitating the exploration of what-if scenarios. These findings suggest a need for advanced predictive and prescriptive analytics (PPA) tools to support
-                                            what-if analysis. Motivated by this need, we perform a follow-up, task-based study to understand PPA's role and potential in business users' decision-making processes.
-                                            We find that PPA helps improve efficiency and confidence in decision-making. However, business users also believe that PPA-powered what-if analysis tools are currently
-                                            in their nascent stages and report improvements before fully integrating them into their decision-making processes. Building upon these findings, we discuss the
-                                            opportunities and challenges in incorporating PPA into data-driven decision-making and its implications for future data and visual analytics systems.
+                                            Developing a domain-specific language (DSL) to empower data analysts to quickly and easily generate interactive documents consisting of text, 
+                                            visualizations, interactions, and annotations to effectively communicate the explanations of recommended decisions and their associated trade-offs to stakeholders.
                                         </Typography>
                                     </CardContent> 
                                 </Grid>
